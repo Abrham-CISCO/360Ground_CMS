@@ -1,0 +1,15 @@
+.box{
+    width:400px;
+    height:500px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+body{
+    background-image: url('./static/istockphoto-1226478932-170667a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
