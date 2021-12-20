@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import MainContainer from './pages/mainContainer';
 import { BrowserRouter } from 'react-router-dom';
+import {Provider} from 'react-redux'
+import store from './redux/store'
 
 function App() {
   return (
-    <BrowserRouter>
-      <MainContainer/>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <MainContainer/>
+      </BrowserRouter>
+    </Provider>
   );
 }
 

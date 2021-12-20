@@ -1,0 +1,5 @@
+export const TraineeActionTypes = {
+    ADD_NEW_TRAINEE:'ADD_NEW_TRAINEE',
+    REMOVE_TRAINEE:'REMOVE_TRAINEE',
+    EDIT_TRAINEE:'EDIT_TRAINEE'
+}
